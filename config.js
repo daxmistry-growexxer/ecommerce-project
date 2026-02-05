@@ -6,5 +6,9 @@ port: 3000,
 logging: {
 level: 'info',
 file: './app.log'
+port: 3000,
+security: {
+jwtSecret: 'secret-key',
+tokenExpiry: '24h'
 }
 };
